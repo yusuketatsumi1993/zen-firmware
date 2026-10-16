@@ -42,19 +42,19 @@
         private_slot_04: private_slot_04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp>;
+            bindings = <&none &kp LS(S) &kp H &kp E &kp N &kp N &kp R &kp O &kp N &kp N &kp N7 &kp NUMBER_2 &kp NUMBER_1 &kp N0 &kp EXCLAMATION>;
         };
 
         private_slot_05: private_slot_05 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none &kp Y &kp U &kp S &kp U &kp K &kp E &kp N7 &kp NUMBER_2 &kp NUMBER_1 &kp N0 &kp EXCLAMATION>;
         };
 
         private_slot_06: private_slot_06 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none &kp LS(Y) &kp U &kp S &kp U &kp K &kp E &kp N7 &kp NUMBER_2 &kp NUMBER_1 &kp N0 &kp EXCLAMATION>;
         };
     };
 
@@ -143,7 +143,7 @@
 
         private_combo_05 {
             bindings = <&private_slot_06>;
-            key-positions = <22 21>;
+            key-positions = <9 10>;
         };
 
         relocated_cmd_right {
@@ -151,6 +151,11 @@
             key-positions = <16 17>;
             layers = <2>;
             timeout-ms = <150>;
+        };
+
+        yubikkuri {
+            bindings = <&private_slot_06>;
+            key-positions = <21 22>;
         };
     };
 
