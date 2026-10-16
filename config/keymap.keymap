@@ -30,7 +30,7 @@
         private_slot_02: private_slot_02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp &kp &kp &kp &kp &kp &kp &kp &kp &kp &kp>;
+            bindings = <&none &kp LS(S) &kp H &kp E &kp N &kp N &kp R &kp O &kp N &kp N &kp N7 &kp NUMBER_2 &kp NUMBER_1 &kp N0>;
         };
 
         private_slot_03: private_slot_03 {
