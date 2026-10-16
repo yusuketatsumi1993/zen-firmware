@@ -36,13 +36,13 @@
         private_slot_03: private_slot_03 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none &kp S &kp H &kp E &kp N &kp N &kp R &kp O &kp N &kp N &kp N7 &kp NUMBER_2 &kp NUMBER_1 &kp N0 &kp EXCLAMATION>;
         };
 
         private_slot_04: private_slot_04 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&none &kp>;
         };
 
         private_slot_05: private_slot_05 {
@@ -138,7 +138,7 @@
 
         private_combo_04 {
             bindings = <&private_slot_05>;
-            key-positions = <10 9>;
+            key-positions = <40 39>;
         };
 
         private_combo_05 {
